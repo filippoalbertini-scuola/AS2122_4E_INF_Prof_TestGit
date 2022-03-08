@@ -28,6 +28,12 @@ namespace AS2122_4E_INF_Prof_TestGit
             }
 
             lblRisultato.Text = $"Il risultato è {risultato}";
+
+            if (risultato > 0)
+                lblRisultato.ForeColor = Color.Green;
+            else
+                lblRisultato.ForeColor = Color.Red;
+
         }
     }
 }
